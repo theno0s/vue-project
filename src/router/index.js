@@ -5,6 +5,9 @@ import DataBindingAttribute from "@/views/DataBindingAttribute";
 import DataBindingButton from "@/views/DataBindingButton";
 import DataBindingClass from "@/views/DataBindingClass";
 import DataBindingClass2 from "@/views/DataBindingClass2";
+import DataBindingList from "@/views/DataBindingList";
+import RenderingVif from "@/views/RenderingVif";
+import EventClick from "@/views/EventClick";
 
 const routes = [
   {
@@ -44,6 +47,21 @@ const routes = [
     path: '/databindingclass2',
     name: 'DataBindingClass2',
     component: DataBindingClass2
+  },
+  {
+    path: '/databindinglist',
+    name: 'DataBindingList',
+    component: DataBindingList
+  },
+  {
+    path: '/renderingvif',
+    name: 'RenderingVif',
+    component: RenderingVif
+  },
+  {
+    path: '/eventclick',
+    name: 'EventClick',
+    component: EventClick
   },
 ]
 
